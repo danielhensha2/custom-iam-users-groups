@@ -13,3 +13,8 @@ variable "group_name" {
   type        = string
   default = "my-group"
 }
+
+variable "policy_arn" {
+  type    = string
+  default = "arn:aws:iam::762233745991:policy/AmazonS3ReadOnlyAccess"
+}
